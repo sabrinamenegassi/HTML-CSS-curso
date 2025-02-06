@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(206, 243, 232);
+    @font-face {
+        font-family: "vodka";
+        src: url(ex019/the soul of vodka.ttf);
+    }
+}
+
+h1 {
+    color:rgb(19, 94, 117);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(19, 94, 117);
+    color: rgb(231, 239, 241);
+}
+
+h2 {
+    color: rgb(0, 192, 166);
+}
+
+.basico {
+    color: rgb(0, 192, 166);
+}
+
+.intermediario {
+    color: rgb(206, 206, 0);
+}
+
+.avançado {
+    color: rgb(179, 3, 3);
+}
+
+.destaque {
+    background-color: rgb(143, 211, 211);
+}
+
+p {
+    text-align: justify;
+}
